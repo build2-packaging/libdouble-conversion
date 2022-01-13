@@ -1,8 +1,8 @@
 : 1
 name: libdouble-conversion
 
-# @@ TMP They don't use semver because 3.1.5 -> 3.1.6 made binary-incompatible
-#    changes in bignum.h (for one).
+# Note that the version is not semver semantically (for example, 3.1.5 -> 3.1.6
+# made binary-incompatible changes in bignum.h, for one).
 #
 version: 3.1.7-a.0.z
 
